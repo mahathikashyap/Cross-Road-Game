@@ -41,6 +41,6 @@ Project report and screenshots are available in the reports folder.
 
 > Mahathi Kashyap  
 > Nithin S S  
-> Rohit D
+> Rohit D   
 > Jeevitha V  
 
