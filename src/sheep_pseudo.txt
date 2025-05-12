@@ -1,0 +1,93 @@
+int main(){
+    //Execution begins from here
+ 
+   Initialize GLUT library
+   Initialize Display Mode
+   Initialize Window size
+   Initialize intial Window position
+   Creates a window with the title "CROSSYROADS"
+   Sets the reshape callback function for the current window
+   Display Callback Function
+   keyboard callback function for the current window
+   Sets the special key callback function
+   Sets the clear color for the color buffer
+   GLUT event processing loop
+}
+
+void move_key(int key, int x, int y) {
+    //This function handles the movement of the car based on the arrow keys. It is called when an arrow key is pressed.
+}
+
+void keyboard(unsigned char key, int x, int y) {
+    //This function handles keyboard inputs other than arrow keys. It is called when a key is pressed.
+}
+
+void output1(int x, int y, const char* string) {
+    // Output text on the screen using GLUT bitmap fonts
+}
+
+void output(int x, int y, const char* string) {
+    // Output text on the screen using GLUT bitmap fonts
+}
+
+void sqr(GLfloat* a, GLfloat* b, GLfloat* c, GLfloat* d) {
+    // Draw a square using the provided vertices
+}
+
+void carmirror() {
+    // Draws the car's side mirrors using `sqr()` function.
+}
+
+void carlight() {
+    // Draw the car's lights using `GL_QUADS`
+}
+
+void wheel() {
+    // Draw the car's wheels using `GL_QUADS
+}
+
+void circle(GLfloat r, GLfloat kx, GLfloat ky) {
+    // Draw a circle with the given radius and center coordinates
+}
+
+void sheep() {
+    // Draw a sheep shape
+}
+
+void car1() {
+    // Draw the car
+}
+
+void drawroad(GLfloat x, GLfloat y) {
+    // Draw the road with given coordinates
+}
+
+void delay(int n1) {
+    // Delay the program execution
+}
+
+void life() {
+    // Handle the life event i.e This function is called when the player loses all their lives. It displays the "GAME OVER" message and calls the delay() function
+}
+
+void vehicle() {
+    // Draw the moving vehicles on the road
+}
+
+void movmt(){
+    //Handle the movement of an object based on the value of the flag variable.
+}
+
+void check(){
+    //checks various conditions and calls the life() function based on those conditions.
+}
+
+void display() {
+    // GLUT display function
+}
+
+void reshape(int w, int h) {
+    //sets the reshape callback for the current window
+}
+
+

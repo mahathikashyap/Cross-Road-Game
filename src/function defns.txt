@@ -1,0 +1,33 @@
+The user-defined functions in the given code are:
+
+1. `void movmt()`: This function is declared but not defined in the provided code.
+
+2. `void move_key(int key, int x, int y)`: This function handles the movement of the car based on the arrow keys. It is called when an arrow key is pressed.
+
+3. `void keyboard(unsigned char key, int x, int y)`: This function handles keyboard inputs other than arrow keys. It is called when a key is pressed.
+
+4. `void output1(int x, int y, const char* string)`: This function displays text on the window using GLUT's bitmap fonts. It takes the position (x, y) and the string to be displayed as parameters.
+
+5. `void output(int x, int y, const char* string)`: This function is similar to `output1()`, but it uses a different font.
+
+6. `void sqr(GLfloat* a, GLfloat* b, GLfloat* c, GLfloat* d)`: This function draws a square using OpenGL's `GL_QUADS` primitive. It takes four vertex coordinates (a, b, c, d) as parameters.
+
+7. `void carmirror()`: This function draws the car's side mirrors using `sqr()` function.
+
+8. `void carlight()`: This function draws the car's lights using `GL_QUADS`.
+
+9. `void wheel()`: This function draws the car's wheels using `GL_QUADS`.
+
+10. `void circle(GLfloat r, GLfloat kx, GLfloat ky)`: This function draws a circle with radius `r` and center coordinates (kx, ky). It is used to draw the sheep's body and other circular shapes in the code.
+
+11. `void sheep()`: This function draws a sheep using `circle()` function. It is called to draw the sheep on the road.
+
+12. `void car1()`: This function draws the car using OpenGL primitives and transformations. It is called to draw the moving cars on the road.
+
+13. `void drawroad(GLfloat x, GLfloat y)`: This function draws the road with white and black squares using `sqr()` function. It takes the starting coordinates (x, y) of the road as parameters.
+
+14. `void delay(int n1)`: This function introduces a delay in the program execution. It is used to display the "GAME OVER" message for a certain duration before exiting the program.
+
+15. `void life()`: This function is called when the player loses all their lives. It displays the "GAME OVER" message and calls the `delay()` function.
+
+16. `void vehicle()`: This function is called to draw the moving vehicles on the road. It calls the `car1()` function to draw the cars at different positions.
